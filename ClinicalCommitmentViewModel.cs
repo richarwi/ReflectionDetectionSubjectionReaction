@@ -31,12 +31,15 @@ namespace NipissingU.SelfServe.WebSite.Areas.SelfServe.Models.Student
 
         public string WinterSemesterTitle { get; set; }
 
+        // THESE ARE THE COURSE OPTIONS THAT I AM TRYING TO MAP TO THE REPORT FIELDS 
         public List<Course> SpringCourseOptions { get; set;}
 
         public List<Course> FallCourseOptions { get; set; }
 
         public List<Course> WinterCourseOptions { get; set; }
+        // END COURSE OPTIONS
 
+        
         public string SpringSemesterSelectedCourse { get; set; }
 
         public string FallSemesterSelectedCourse { get; set; }
